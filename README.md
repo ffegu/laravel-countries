@@ -3,7 +3,7 @@
 ## Installation
 
 ```shell
-composer require barryvdh/laravel-debugbar --dev
+composer require pranpegu/laravel-countries --dev
 ```
 Laravel uses Package Auto-Discovery, so doesn't require you to manually add the ServiceProvider.
 
