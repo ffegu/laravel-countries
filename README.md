@@ -12,7 +12,7 @@ Laravel uses Package Auto-Discovery, so doesn't require you to manually add the 
 If you don't use auto-discovery, add the ServiceProvider to the providers array in config/app.php
 
 ```php
-PranPegu\LaravelCountries\CountriesServiceProvider::class,
+Pranpegu\LaravelCountries\CountriesServiceProvider::class,
 ```
 
 ## Uses
