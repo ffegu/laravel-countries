@@ -1,0 +1,26 @@
+{
+    "name": "pranpegu/laravel-countries",
+    "description": "Simple laravel country list",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ffegu",
+            "email": "ffegu0617@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Pranpegu\\LaravelCountries\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pranpegu\\LaravelCountries\\CountriesServiceProvider"
+            ]
+        }
+    }
+}
